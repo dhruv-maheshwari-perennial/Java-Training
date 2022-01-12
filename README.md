@@ -1,15 +1,13 @@
-#Java Leaning Plan
 
 | Java Learning Plan |                               |
 |--------------------|-------------------------------|
-| Progress Sheet     |                               |
 | Parts              | Module                        |
 | Part 1             | Java Fundamentals             |
 |                    | Control Flow Statements       |
 |                    | OOP's Concept 1               |
 |                    | OOP's Concept 2               |
 |                    | Array                         |
-|                    | Lists                         |
+|                    | ArrayLists                    |
 |                    | AutoBoxing & Unboxing         |
 |                    | Inner & Abstract Classes      |
 |                    | Interfaces                    |
@@ -27,3 +25,4 @@
 |                    | Debugging & Unit Testing      |
 | Part 3             | MySql                         |
 |                    | JDBC                          |
+|                    |                               |
