@@ -30,8 +30,6 @@ class Car {
     public String getName() {
         return name;
     }
-
-
 }
 
 class Mitsubishi extends Car {
