@@ -3,7 +3,7 @@ package OOPs_Concept;
 public class Class_Basic_Syntax_01 {
     public static void main(String[] args) {
         // object for class Car
-        Car bmw = new Car();
+        SuperCar bmw = new SuperCar();
 
         // accessing Car class variables
         // calling setter method
