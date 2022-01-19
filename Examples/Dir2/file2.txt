@@ -1,0 +1,1 @@
+Example -> Dir2 -> File2.txt
