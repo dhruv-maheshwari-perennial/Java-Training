@@ -3,10 +3,7 @@ package Lambda_Expressions;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.function.Function;
-import java.util.function.IntPredicate;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 class Employees {
     private String name;
@@ -70,6 +67,27 @@ public class Lambda_02 {
                 System.out.println(getAName(getLastName, emp));
             }
         }
+
+        // Single Parameter Function
+        Function<Employees, String> upperCase = employees -> employees.getName().toUpperCase();
+        Function<String, String> firstName = name -> name.substring(0, name.indexOf(' '));
+        Function chainedFunctions = upperCase.andThen(firstName);
+        System.out.println(chainedFunctions.apply(emps.get(0)));
+
+        // Double Parameter Function
+        BiFunction<String, Employees, String> concatAge = (String name, Employees emp) -> {
+            return name.concat(" " + emp.getAge());
+        };
+
+        String upperName = upperCase.apply(emps.get(0));
+        System.out.println(concatAge.apply(upperName, emps.get(0)));
+
+        IntUnaryOperator incBy5 = i -> i + 5;
+        System.out.println(incBy5.applyAsInt(10));
+
+        Consumer<String> c1 = s -> s.toUpperCase();
+        Consumer<String> c2 = s -> System.out.println(s);
+        c1.andThen(c2).accept("Hello World");
     }
 
     private static String getAName(Function<Employees, String> getName, Employees emp) {
