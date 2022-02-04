@@ -7,5 +7,14 @@
     </content>
     <orderEntry type="jdk" jdkName="16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Java DB/sqlite-jdbc/sqlite-jdbc-3.36.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
