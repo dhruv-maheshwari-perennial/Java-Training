@@ -8,5 +8,6 @@ public class BasicSyntax_01 {
 
         // print statement
         System.out.println("Hello");
+        System.out.println("World");
     }
 }
