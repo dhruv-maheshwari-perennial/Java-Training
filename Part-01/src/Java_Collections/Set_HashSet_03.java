@@ -123,38 +123,38 @@ public class Set_HashSet_03 {
             System.out.println(planet.getName());
         }
 
-        System.out.println("===========================");
-
+//        System.out.println("===========================");
+//
         HeavenlyBody body = solarSystem.get("Jupiter");
         System.out.println("Moons of " + body.getName() + ": ");
         for (HeavenlyBody jupiterMoon: body.getSatellites()) {
             System.out.println(jupiterMoon.getName());
         }
 
-        System.out.println("===========================");
-
-        Set<HeavenlyBody> moons = new HashSet<>();
-        for (HeavenlyBody planet: planets) {
-            moons.addAll(planet.getSatellites());
-        }
-
-        System.out.println("All moons");
-        for (HeavenlyBody moon: moons) {
-            System.out.println(moon.getName());
-        }
-
-        System.out.println("===========================");
-
-        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
-        planets.add(pluto);
-
-        for (HeavenlyBody planet: planets) {
-            System.out.println(planet.getName() + ": " + planet.getOrbitalPeriod());
-        }
-
-        // equals() & hashcode() methods
-        Object o = new Object();
-        o.equals(o);
-        "pluto".equals("");
+//        System.out.println("===========================");
+//
+//        Set<HeavenlyBody> moons = new HashSet<>();
+//        for (HeavenlyBody planet: planets) {
+//            moons.addAll(planet.getSatellites());
+//        }
+//
+//        System.out.println("All moons");
+//        for (HeavenlyBody moon: moons) {
+//            System.out.println(moon.getName());
+//        }
+//
+//        System.out.println("===========================");
+//
+//        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+//        planets.add(pluto);
+//
+//        for (HeavenlyBody planet: planets) {
+//            System.out.println(planet.getName() + ": " + planet.getOrbitalPeriod());
+//        }
+//
+//        // equals() & hashcode() methods
+//        Object o = new Object();
+//        o.equals(o);
+//        "pluto".equals("");
     }
 }
