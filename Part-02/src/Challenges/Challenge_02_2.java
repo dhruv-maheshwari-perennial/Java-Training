@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Challenge_02 {
+public class Challenge_02_2 {
     public static void main(String[] args) {
         // Challenge 9 & 10
         List<String> topNames2015 = Arrays.asList(

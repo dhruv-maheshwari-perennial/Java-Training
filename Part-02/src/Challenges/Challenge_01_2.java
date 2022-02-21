@@ -3,7 +3,7 @@ package Challenges;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class Challenge_01 {
+public class Challenge_01_2 {
     public static void main(String[] args) {
 
         // Challenge 1

@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 // Challenge 3 - Regular Expression
-public class Challenge_03 {
+public class Challenge_03_2 {
     public static void main(String[] args) {
 
         // Challenge 1 -
